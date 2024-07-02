@@ -1,0 +1,710 @@
+body{
+  background-color: #ccc;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  font-size: 1.5em;
+}
+
+.nav {
+  display: flex;
+}
+
+.the-li {
+  margin-left: 10px;
+  margin-right: 10px;
+  list-style: none;
+}
+
+.cta-buttons {
+  display: flex;
+}
+
+.btn {
+  border-radius: 24px;
+  background-color: #20888F;
+  color: #FFFFFF;
+  width: 115px;
+}
+
+.btn-secondary {
+  border-radius: 24px;
+  background-color: #303030;
+  margin-left: 10px;
+  color: #FFFFFF;
+  width: 115px;
+}
+
+.logo{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.hero-text{
+  max-width: 500px;
+  
+}
+
+.hero-img{
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.hero-btn{
+  background-color: #000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.hero-btn:hover {
+  background-color: #333;
+}
+
+
+.builders {
+  margin-top: 50px;
+  padding: 50px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.builders-cards
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+.builders-card{
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 45%;
+}
+
+.builder-link{
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  width:116.97;
+  height: 27;
+  color: black;
+padding-left: 20px;
+margin-left: 40px;
+font-weight: 500;
+}
+
+.focus {
+  margin-top: 40px;
+  background-color: #f4f4f4;
+  padding: 15px 10px;
+  text-align: center;
+  
+}
+
+.focus-areas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex: 1;
+  /* padding: 20px; */
+  text-align: left; 
+  color: white; 
+  border: 2px solid transparent; 
+  box-sizing: border-box; 
+}
+
+.focus-area:nth-child(1) {
+  padding: 5px;
+  background-color: #303030; 
+}
+ .focus-area:nth-child(2) {
+  padding: 5px;
+  background-color: #F47733; 
+}
+.focus-area:nth-child(3) {
+  padding: 5px;
+  background-color: #FF78BF; 
+}
+ .focus-area:nth-child(4) {
+  padding: 5px;
+  background-color: #20888F; 
+}
+
+.focus-area:nth-child(5) {
+  padding: 5px;
+  background-color: #FF88C6; 
+}
+
+
+.concept{
+  text-align: center;
+  margin-top: 40px;
+  
+  
+}
+.concept-group{
+  
+  display: flex;
+  justify-content: space-around ;
+  
+
+}
+.concept-card{
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 352px;
+  min-height: 212px;
+  background-color: #f4f4f4;
+  border-radius: 12px;
+  text-align: center;
+  margin-left: 3px;
+  margin-left: 3px;
+  
+}
+
+.concept-top{
+  font-weight: 500; 
+}
+
+
+.portfolio{
+  
+  text-align: center;
+  padding: 20px;
+}
+.port-logos {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr); 
+  gap: 5px; 
+  margin-top: 20px;
+  margin-bottom: -20px;
+  
+}
+.port-logo{
+  
+  width: 100%; 
+  height: auto; 
+  display: flex; 
+  border-radius: 8px; 
+  
+}
+.port-img{
+  width: 100%; 
+  height: auto; 
+  display: block; 
+   
+}
+.port-a{
+  color: black;
+}
+.port-styles{
+  margin-top: 50px;
+}
+
+
+.found-container {
+  text-align: center;
+  padding: 20px;
+}
+.found-sections {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  margin-top: 20px;
+}
+.found-section {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+  max-width: 300px;
+}
+.found-circle {
+  width: 40px;
+  height: 40px;
+  background-color: #303030;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+.found-content {
+  flex: 1;
+  width: 100%;
+}
+.found-link {
+  padding: 10px 20px;
+  color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  background-color: transparent;
+}
+.found-link:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+
+.program-container {
+  text-align: center;
+  padding: 20px;
+}
+.program-sections {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+}
+.program-section {
+  flex: 1;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 45%;
+  position: relative;
+}
+.program-circle {
+  width: 40px;
+  height: 40px;
+  background-color: #303030;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+}
+.program-img {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+.program-link {
+  background: none;
+  color: blue;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  text-decoration: underline;
+  margin-top: 20px;
+}
+
+.program-link:hover {
+  color: darkblue;
+}
+.program-navigation {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.program-btn{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #007bff;
+  margin: 0 10px;
+}
+.program-btn:hover {
+  color: #0056b3;
+}
+
+
+.investors {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.investors-heading {
+  margin-top: 30px;
+}
+.inv-top{
+  background-color: #20888F;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  
+}
+.investors-deals {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+.investors-deal {
+  flex: 1;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+.inv-btm{
+  margin: 0;
+  line-height: 1.6;
+}
+
+.investors-btn {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.investors-btn:hover {
+  background-color: #0056b3;
+}
+
+
+.equity-jobs {
+  text-align: center;
+  padding: 20px;
+}
+
+.job-listings {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+  overflow-x: auto;
+}
+
+.job {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  min-width: 300px;
+  max-width: 100%;
+}
+
+.logo-container {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.job-icon {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.job-details {
+  width: 100%;
+}
+.view-details-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.see-more-link {
+  text-align: center;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+
+
+.blogs-resources {
+  padding: 20px;
+  text-align: center;
+}
+
+.blogs-resources h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.blogs-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.blog-item {
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+}
+
+.blog-item img {
+  width: 100%;
+  height: auto;
+}
+
+.view-more {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.view-more:hover {
+  background-color: #0056b3;
+}
+
+
+
+.featured-section {
+  background-color: white;
+  color: black;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.featured-section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.featured-companies {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.company {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.company img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.company p {
+  font-size: 1em;
+  margin: 0;
+}
+
+
+
+.newsletter-container {
+  background-color: #333;
+  color: white;
+  padding: 40px 20px;
+}
+
+.newsletter {
+  text-align: center;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #444;
+}
+
+.newsletter h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.newsletter p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter-form input {
+  padding: 10px;
+  font-size: 1em;
+  border: none;
+  width: 300px;
+  margin-right: 10px;
+}
+
+.newsletter-form button {
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.newsletter-form button:hover {
+  background-color: #0056b3;
+}
+
+.footer {
+  padding: 40px 20px;
+}
+
+.footer-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.footer-column h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.footer-column p,
+.footer-column ul {
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-column ul li {
+  margin-bottom: 5px;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #444;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+.footer-bottom ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+.footer-bottom ul li {
+  margin: 0 10px;
+}
+
+
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .menu-toggle div {
+    width: 30px;
+    height: 3px;
+    background: black;
+  }
+
+  .cta-buttons {
+    display: none;
+  }
+  .builders{
+    font-size: small;
+  }
+.builder-link{
+   
+    font-size: 10px;
+    cursor: pointer;
+    width:116.97;
+    height: 27;
+    color: black;
+  
+ 
+  font-weight: 500;
+  
+}
+.concept-card{
+  font-size: small;
+}
+.found-container{
+  font-size: small;
+}
+.program-title{
+  margin-top: 30px;
+
+}
+.investors-deal{
+  font-size: small;
+}
+}
